@@ -15,9 +15,12 @@ We've copied the questions from the lab here. Answer them below!
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
+
+Brown, Black, Brown
  
 **b. What do you have to do to light your LED?**
 
+I have to push the button to light the LED. The Metro Mini also needs to be connected to a power source.
 
 ## Part C. Blink a LED using Arduino
 
