@@ -65,9 +65,11 @@ The LED is able to glow the whole turning range of the potentiometer. Depending 
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
-The first thing to do is to change the "int led = 9" to "int led = 11"
+The first thing to do is to change the "int led = 9" to "int led = 11". In order to control how fast it fades, we can change the fadeAmount variable.
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+
+analogWrite() is able to generate a wave of specified duty cycle and therefore set the voltage to HIGH/LOW a certain fraction of the time. This fraction changes linearly with how one changes the value for the analogWrite function. It is different than digitalWrite in that digitalWrite can only have 2 settings: HIGH or LOW
 
 
 ## Part F. FRANKENLIGHT!!!
