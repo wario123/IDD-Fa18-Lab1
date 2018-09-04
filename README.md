@@ -28,11 +28,19 @@ I have to push the button to light the LED. The Metro Mini also needs to be conn
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+When uploading the code to the Arduino, the LED blinks on and off every second. pinMode and digitalWrite functions need to take in as argument either LED_BUILTIN or 13.
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
+We need to adjust the argument of at least one of the delay functions. Increasing or decreasing the first delay function will respectively increase or decrease the time that the LED is lit while increasing or decreasing the second delay function argument will respectively increase or decrease the time that the LED is not lit.
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+
+You would want to add a resistor to limit current going through.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+
+Once both delay function arguments are set at 15 ms, I can no longer perceive the LED blinking. To prove that it is, I can take a "Slo-Mo" video with iPhone and by going frame by frame I can notice the LED being off almost half of the frames.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
