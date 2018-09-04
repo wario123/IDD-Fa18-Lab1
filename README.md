@@ -105,3 +105,5 @@ In my circuit, the keyboard is connected to my laptop therefore the power is gen
 
 **Include any schematics or photos in your lab write-up.**
 
+[link to video of frankenlight](https://www.youtube.com/watch?v=3TEYE3-ppyM&feature=youtu.be)
+
