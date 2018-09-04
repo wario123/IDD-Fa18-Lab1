@@ -44,6 +44,8 @@ Once both delay function arguments are set at 15 ms, I can no longer perceive th
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
+[Modified Code!](https://github.com/wario123/IDD-Fa18-Lab1/blob/master/partC_question1e.ino)
+    
 
 ### 2. Blink your LED
 
