@@ -78,18 +78,27 @@ analogWrite() is able to generate a wave of specified duty cycle and therefore s
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
+There is computation inside the microcontroller. The microcontroller is on th circuit board and is taking in as inputs the information sent from pressing a key on the keyboard pad and does computation to transform these inputs into hex in order for the computer that is connected to the keyboard to understand the inputs from the keyboard.
+
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+
+There are touch sensors to press the keyboards on. Because all keys are connected, the sensed information is conveyed using a key matrix in which anytime the key is touched, the circuit is completed and the keyboard's processor decides which character or function to send to the computer.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
+The device is powered via a laptop. The power is constantly generated at constant 5V.
+
 **d. Is information stored in your device? Where? How?**
+
+There must be information stored in the device to store the key matrix to be able to decide what key maps to what character to send to the computer. This information is stored inside the microcontroller.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+In my circuit, the keyboard is connected to my laptop therefore the power is generated from the computer. I have an LED set up on the Arduino board with wires connected to source and ground. When the wires touch the metal part of the keyboard from the positive end and negative end parts, the LED on the arduino board lights up.
 
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
 
 **Include any schematics or photos in your lab write-up.**
+
