@@ -51,7 +51,7 @@ Once both delay function arguments are set at 15 ms, I can no longer perceive th
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+[link to blinking LED](https://www.youtube.com/watch?v=U1FaAGCqVZ8&feature=youtu.be)
 
 
 ## Part D. Manually fade an LED
