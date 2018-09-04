@@ -69,7 +69,7 @@ The first thing to do is to change the "int led = 9" to "int led = 11". In order
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
-analogWrite() is able to generate a wave of specified duty cycle and therefore set the voltage to HIGH/LOW a certain fraction of the time. This fraction changes linearly with how one changes the value for the analogWrite function. It is different than digitalWrite in that digitalWrite can only have 2 settings: HIGH or LOW
+analogWrite() is able to generate a wave of specified duty cycle and therefore set the voltage to HIGH/LOW a certain fraction of the time. This fraction changes linearly with how one changes the value for the analogWrite function. It is different than digitalWrite in that digitalWrite can also only have 2 settings: HIGH or LOW but always 100% of the time. analogWrite(255) = digitalWrite(HIGH) and analogWrite(0) = digitalWrite(LOW).
 
 
 ## Part F. FRANKENLIGHT!!!
