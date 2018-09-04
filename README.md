@@ -76,6 +76,9 @@ analogWrite() is able to generate a wave of specified duty cycle and therefore s
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+[link to schematic](https://github.com/wario123/IDD-Fa18-Lab1/blob/master/IMG_7319.jpg)
+
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
 There is computation inside the microcontroller. The microcontroller is on th circuit board and is taking in as inputs the information sent from pressing a key on the keyboard pad and does computation to transform these inputs into hex in order for the computer that is connected to the keyboard to understand the inputs from the keyboard.
