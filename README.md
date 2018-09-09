@@ -1,12 +1,5 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by John Q. Student**
-
-
-> Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
-
-We've copied the questions from the lab here. Answer them below!
-
 ## Part A. Set Up a Breadboard
 
 [link to photo](https://github.com/wario123/IDD-Fa18-Lab1/blob/master/IMG_7296.jpg)
